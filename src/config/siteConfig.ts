@@ -1,186 +1,70 @@
 export const siteConfig = {
-  name: "Le Yum",
-  fullName: "Le Yum Shake Bar",
-  tagline: "Nouveau concept healthy • Coaching nutrition & sport",
-  description: "Premier concept australien en France : shake bar diététique + coaching nutrition personnalisé + sport. Perdez du poids avec notre méthode 80% nutrition / 20% sport.",
-  
-  contact: {
-    address: "61 Quai Magellan, 44000 Nantes",
-    phone: "06 48 45 84 33",
-    instagram: "https://www.instagram.com/yum.shakebar/",
-    facebook: "https://www.facebook.com/p/Le-Yum-Shake-Bar-Nantes-100090433685734/",
-    location: {
-      lat: 47.20956,
-      lng: -1.5469752
-    }
-  },
+  name: "Tizh Breizh",
+  tagline: "Galettes & Crêpes artisanales · Produits locaux",
+  description: "Food truck artisanal de crêpes et galettes aux produits locaux, sillonnant les communes autour de Redon en Loire-Atlantique et Ille-et-Vilaine.",
 
-  hours: {
-    schedule: {
-      lundi: "12h - 18h",
-      mardi: "12h - 18h",
-      mercredi: "12h - 18h",
-      jeudi: "12h - 18h",
-      vendredi: "12h - 18h",
-      samedi: "Fermé",
-      dimanche: "Fermé"
-    },
-    sport: "Séances de sport : Mercredi & Samedi"
+  contact: {
+    phone: "06 04 48 17 25",
+    email: "tizh-breizh@outlook.fr",
+    facebook: "https://www.facebook.com/people/Tizh-Breizh/61581677872594/",
   },
 
   founder: {
-    name: "Élise",
-    background: "Études en nutrition + communication & marketing",
-    origin: "Concept découvert en Australie",
-    role: "Coach en nutrition & sport",
-    mission: "Aider les Français : 1 sur 2 est en surpoids"
+    name: "Florian Bodin",
+    origin: "Sainte-Marie (44)",
+    previousJob: "Mécanicien de précision chez BIC, Redon – 4 ans",
+    training: "Atelier de la crêpe, Saint-Malo – CQP (Certificat de Qualification Professionnelle)",
+    quote: "Ma belle-famille avait l'habitude de cuisiner des galettes et des crêpes. J'ai eu envie d'apprendre.",
+    launch: "Lancement en octobre 2025",
   },
 
-  concept: {
-    origin: "Importé d'Australie - Premier en France",
-    formula: "80% nutrition + 20% sport",
-    philosophy: "Les deux sont essentiels pour des résultats durables",
-    guarantee: "Résultats garantis",
-    approach: "Conseils avec douceur et fermeté",
-    unique: "Concept unique alliant shake bar + coaching personnalisé"
+  formule: {
+    name: "Formule Breizh",
+    price: "10€",
+    includes: ["1 Galette", "1 Crêpe", "1 Boisson"],
   },
 
-  process: {
-    steps: [
-      {
-        number: 1,
-        title: "Entretien initial",
-        description: "Discussion sur vos objectifs et le travail à effectuer"
-      },
-      {
-        number: 2,
-        title: "Coaching nutrition",
-        description: "Élise gère votre alimentation et vous guide sur vos efforts"
-      },
-      {
-        number: 3,
-        title: "Séances sport",
-        description: "Entraînements encadrés mercredi et samedi"
-      },
-      {
-        number: 4,
-        title: "Suivi personnalisé",
-        description: "Conseils continus et ajustements réguliers"
-      }
-    ]
-  },
-
-  shakeBar: {
-    concept: "Bar cosy où déguster nos créations",
-    products: [
-      {
-        name: "Smoothies maison",
-        description: "Succulents et diététiques, préparés avec soin",
-        icon: "smoothie"
-      },
-      {
-        name: "Thés de spécialité",
-        description: "Sélection de thés pour tous les moments",
-        icon: "tea"
-      },
-      {
-        name: "Shakes gourmands",
-        description: "Diététiques et savoureux",
-        icon: "shake"
-      }
-    ]
-  },
-
-  services: [
-    {
-      title: "Coaching Nutrition",
-      description: "80% de la méthode : conseils alimentaires personnalisés, gestion de votre alimentation au quotidien",
-      icon: "apple",
-      percentage: 80
-    },
-    {
-      title: "Entraînement Sport",
-      description: "20% de la méthode : séances encadrées pour compléter votre transformation",
-      icon: "dumbbell",
-      percentage: 20
-    },
-    {
-      title: "Shake Bar",
-      description: "Smoothies et thés pour se récompenser dans une ambiance conviviale",
-      icon: "cup",
-      percentage: null
-    },
-    {
-      title: "Suivi Personnalisé",
-      description: "Accompagnement continu et ajustements selon vos progrès",
-      icon: "chart",
-      percentage: null
-    }
+  schedule: [
+    { day: "Mardi",   time: "Soir",          location: "Avessac",                   dept: "44" },
+    { day: "Mercredi",time: "Journée",        location: "Renac",                     dept: "35" },
+    { day: "Jeudi",   time: "17h30 – 21h00", location: "Massérac · Sous les halles", dept: "44" },
+    { day: "Vendredi",time: "Midi",           location: "Redon · Paul & Joseph",     dept: "35" },
+    { day: "Vendredi",time: "Soir",           location: "Sainte-Marie",              dept: "44" },
+    { day: "Samedi",  time: "Midi & Soir",    location: "Redon",                     dept: "35" },
   ],
 
-  benefits: [
-    {
-      title: "Résultats garantis",
-      description: "Méthode éprouvée avec des résultats concrets",
-      icon: "check"
-    },
-    {
-      title: "Premier en France",
-      description: "Concept unique importé d'Australie",
-      icon: "star"
-    },
-    {
-      title: "Approche douce",
-      description: "Conseils fermes mais bienveillants",
-      icon: "heart"
-    },
-    {
-      title: "Ambiance conviviale",
-      description: "Un lieu où l'on revient avec plaisir",
-      icon: "smile"
-    }
-  ],
-
-  stats: {
-    formula: "80/20",
-    origin: "Australie",
-    target: "1 Français sur 2 en surpoids",
-    first: "Premier concept en France"
+  mascotte: {
+    name: "Loka",
+    description:
+      "Bonjour à tous, moi je m'appelle Loka et de temps en temps j'ai le droit de déguster de bonnes crêpes et galettes ! N'hésitez pas à passer chez Tizh Breizh, vous aurez peut-être l'occasion de me croiser.",
   },
+
+  values: [
+    {
+      title: "Produits locaux",
+      description: "Florian sélectionne ses ingrédients chez des producteurs de la région.",
+      icon: "leaf",
+    },
+    {
+      title: "Savoir-faire certifié",
+      description: "Formé à l'Atelier de la crêpe de Saint-Malo, CQP en poche.",
+      icon: "star",
+    },
+    {
+      title: "Convivialité",
+      description: "Un food truck chaleureux, une ambiance simple et authentique.",
+      icon: "heart",
+    },
+    {
+      title: "Recettes maîtrisées",
+      description: "Des galettes et crêpes préparées avec soin, chaque semaine.",
+      icon: "check",
+    },
+  ],
 
   seo: {
-    title: "Le Yum Nantes | Shake Bar & Coaching Nutrition/Sport - Concept Australien",
-    description: "Premier concept australien en France : shake bar + coaching nutrition personnalisé + sport. Méthode 80% nutrition / 20% sport pour perdre du poids. Résultats garantis. ☎ 06 48 45 84 33",
-    keywords: [
-      "Le Yum Nantes",
-      "shake bar Nantes",
-      "coaching nutrition Nantes",
-      "perte de poids Nantes",
-      "smoothie diététique Nantes",
-      "coach nutrition Nantes",
-      "sport Nantes",
-      "concept australien Nantes",
-      "maigrir Nantes",
-      "healthy Nantes",
-      "Élise coach",
-      "quai Magellan Nantes",
-      "nutrition sport 80 20"
-    ],
-    og: {
-      title: "Le Yum - Shake Bar & Coaching Nutrition/Sport à Nantes",
-      description: "Concept australien unique : 80% nutrition + 20% sport. Smoothies, thés, coaching personnalisé. Résultats garantis !",
-      image: "/og-image.jpg",
-      type: "website"
-    }
+    title: "Tizh Breizh | Food Truck Crêpes & Galettes – Redon, Loire-Atlantique",
+    description:
+      "Food truck Tizh Breizh : galettes et crêpes artisanales aux produits locaux autour de Redon. Formule Breizh à 10€. Florian Bodin, crêpier certifié.",
   },
-
-  colors: {
-    jungle: "#00a86b", // Vert jungle principal
-    lime: "#98d90a", // Vert lime énergique
-    yellow: "#ffd700", // Jaune tropical
-    orange: "#ff8c42", // Orange smoothie
-    cream: "#faf8f3", // Crème doux
-    white: "#ffffff",
-    dark: "#1a3a2c" // Vert foncé
-  }
 };
