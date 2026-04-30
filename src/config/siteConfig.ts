@@ -42,22 +42,22 @@ export const siteConfig = {
   values: [
     {
       title: "Produits locaux",
-      description: "Florian sélectionne ses ingrédients chez des producteurs de la région.",
+      description: "Je sélectionne mes ingrédients chez des producteurs de la région, en Loire-Atlantique et Ille-et-Vilaine.",
       icon: "leaf",
     },
     {
       title: "Savoir-faire certifié",
-      description: "Formé à l'Atelier de la crêpe de Saint-Malo, CQP en poche.",
+      description: "Formé à l'Atelier de la crêpe de Saint-Malo, j'ai obtenu mon CQP avant de lancer mon activité.",
       icon: "star",
     },
     {
       title: "Convivialité",
-      description: "Un food truck chaleureux, une ambiance simple et authentique.",
+      description: "Mon food truck, c'est un endroit simple et chaleureux où j'aime bien recevoir les gens.",
       icon: "heart",
     },
     {
       title: "Recettes maîtrisées",
-      description: "Des galettes et crêpes préparées avec soin, chaque semaine.",
+      description: "Je prépare mes galettes et crêpes avec soin, à la minute, semaine après semaine.",
       icon: "check",
     },
   ],
